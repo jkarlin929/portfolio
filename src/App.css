@@ -1,31 +1,118 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  background: #8b86a1;
+}
+
+a{
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+a:hover{
+  color: #820707;
+  text-decoration: none;
+}
+
+p{
+  font-size: 16px;
+}
+
 #photo{
   width: 30%;
   height: 30%;
 }
 
+#projectsTitle{
+  background: #bec7e7;
+  font-size: 40px;
+  border-style: solid;
+  border-width: 3px;
+  text-shadow: 1px 1px black;
+  /*margin: 0px 300px 5px 300px;*/
+}
+
+#aboutMe{
+  background: #bec7e7;
+  border-style: solid;
+  border-width: 3px;
+  padding: 15px;
+}
+
 .about{
-  background: red;
   width: 100%;
   margin: 0px;
+  background: #8b86a1;
   text-align: center;
 }
 
-.projects{
+.grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: #8b86a1;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+.grid > div {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  background: yellow;
+  justify-content: baseline;
+  background: #bec7e7;
+  padding: 1em;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.row{
+  margin: 0 auto;
+  width: 100%;
 }
 
 .codepen{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200%;
 }
 
 .images{
-  margin: 10px;
+  margin: 20px;
+  padding: 10px;
 }
 
 .footer{
-  background: purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #413f74;
+  color: #5c7f81;
+  text-shadow: 1px 1px black;
+  font-size: 16px;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.citibikeProject, .thankHeavenProject, .moonProject, .wordGame{
+  text-align: center;
+}
+
+.navbar-inverse{
+  background-color: #413f74;
+  border-color: #413f74;
+}
+
+@media only screen and (max-width: 500px) {
+    body, .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .codepen{
+      width: 100%;
+    }
+
+    img{
+      width: 100%;
+    }
 }
