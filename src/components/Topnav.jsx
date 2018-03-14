@@ -6,8 +6,8 @@ class Topnav extends Component {
     return(
       <div className="topnav" id="topnav">
   <Navbar inverse collapseOnSelect>
-            <Col xs={4} md={4}>
-              <Image id="photo" src="http://res.cloudinary.com/jkarlin929/image/upload/v1520212509/20141101_172558_delcg6.png" circle responsive />
+            <Col xs={6} md={3}>
+              <Image id="photo" src="http://res.cloudinary.com/jkarlin929/image/upload/v1520994430/photoofme2_ysepvv.jpg" circle responsive />
             </Col>
         <Navbar.Header>
           <Navbar.Brand>
