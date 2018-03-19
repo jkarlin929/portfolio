@@ -1,10 +1,10 @@
 body{
   font-family: 'Josefin Sans', sans-serif;
-  background: #8b86a1;
+  background: #d0c7a2;
 }
 
 a{
-  color: #fff2f4;
+  color: #faf2dc;
   text-shadow: 1px 1px black;
 }
 
@@ -24,7 +24,7 @@ p{
 
 #projectsTitle{
   font-family: 'Archivo Black', sans-serif;
-  background: #bec7e7;
+  background: #99be8f;
   font-size: 60px;
   border-style: solid;
   border-width: 3px;
@@ -33,7 +33,7 @@ p{
 }
 
 #aboutMe{
-  background: #bec7e7;
+  background: #99be8f;
   border-style: solid;
   border-width: 3px;
   padding: 15px;
@@ -42,14 +42,14 @@ p{
 .about{
   width: 100%;
   margin: 0px;
-  background: #8b86a1;
+  background: #d0c7a2;
   text-align: center;
 }
 
 .grid{
   display: grid;
   grid-template-columns: 50% 50%;
-  background: #8b86a1;
+  background: #d0c7a2;
   grid-column-gap: 1em;
   grid-row-gap: 1em;
 }
@@ -58,7 +58,7 @@ p{
   display: flex;
   flex-direction: column;
   justify-content: baseline;
-  background: #bec7e7;
+  background: #99be8f;
   padding: 1em;
   border-style: solid;
   border-width: 3px;
@@ -83,15 +83,15 @@ p{
 }
 
 .navLinks{
-  color: #333333;
+  color: #4e8064;
 }
 
 .footer{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #413f74;
-  color: #5c7f81;
+  background-color: #262d2e;
+  color: #4e8064;
   text-shadow: 1px 1px black;
   font-size: 16px;
   margin-top: 15px;
@@ -103,7 +103,7 @@ p{
 }
 
 .navbar-inverse{
-  background-color: #413f74;
+  background-color: #262d2e;
   border-color: #413f74;
 }
 

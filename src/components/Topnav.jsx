@@ -16,7 +16,7 @@ class Topnav extends Component {
           <Navbar.Toggle />
         </Navbar.Header>
   <Navbar.Collapse>
-      <Nav>
+      <Nav pullLeft>
           <NavItem eventKey={1} href="#about">
             About
           </NavItem>
@@ -25,15 +25,6 @@ class Topnav extends Component {
           <NavItem eventKey={3} href="#footer">
           Contact
           </NavItem>
-      <NavDropdown eventKey={4} title="Projects" id="basic-nav-dropdown">
-          <MenuItem eventKey={4.1}> <a className="navLinks" href="https://citibikers.herokuapp.com/">Citibike Locator
-          </a> </MenuItem>
-          <MenuItem eventKey={4.2}> <a className="navLinks" href="https://thank-heaven.herokuapp.com"> Thank Heaven: Children's Boutique </a> </MenuItem>
-          <MenuItem eventKey={4.3}> <a className="navLinks" href="https://astronobject.herokuapp.com/">Astronmer's Guide
-          </a> </MenuItem>
-          <MenuItem eventKey={4.4}> <a className="navLinks" href="https://hellish-word-game.herokuapp.com/index.html">Word Guessing Game
-          </a> </MenuItem>
-        </NavDropdown>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
