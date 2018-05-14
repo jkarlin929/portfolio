@@ -49,7 +49,7 @@ class Projects extends Component {
         <Row>
           <Col xs={6} md={6}>
           <h2>Word Guessing Game</h2>
-            <a href="https://github.com/jkarlin929/word-game"> <Image className="images" src="https://media.giphy.com/media/iB52Yt0VWdgDQ8FudX/giphy.gif" thumbnail responsive /> </a>
+            <a href="https://hellish-word-game.herokuapp.com/index.html"> <Image className="images" src="https://media.giphy.com/media/iB52Yt0VWdgDQ8FudX/giphy.gif" thumbnail responsive /> </a>
             <p>A word game built using HTML5, CSS and Javascript.</p>
             <a href="https://hellish-word-game.herokuapp.com/index.html">| Word Game |</a>
             <a href="https://github.com/jkarlin929/word-game">| Github Repo For This Project | </a>
