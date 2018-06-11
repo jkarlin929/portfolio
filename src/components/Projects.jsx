@@ -37,7 +37,7 @@ class Projects extends Component {
           <Col xs={6} md={6}>
           <h2>Astronomer's Guide</h2>
             <a href="https://astronobject.herokuapp.com/"> <Image className="images" src="https://media.giphy.com/media/23cXQxgrvG4eNeuJZF/giphy.gif" thumbnail responsive /> </a>
-            <p>An Express with Node and EJS Astronomy Project. </p>
+            <p>An Express with Node and Javascript Astronomy Web App. </p>
             <a href="https://astronobject.herokuapp.com/">  | Astronomer's Guide |</a>
             <a href="https://github.com/jkarlin929/moon_app">| Github Repo For This Project | </a>
           </Col>
