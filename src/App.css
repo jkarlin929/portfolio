@@ -77,6 +77,10 @@ p{
   width: 200%;
 }
 
+.background-image{
+  : 100%;
+}
+
 .images{
   margin: 20px;
   padding: 10px;

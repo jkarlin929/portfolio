@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Grid, Col, Row, Image } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, Col, Image } from 'react-bootstrap';
 
 class Topnav extends Component {
   render() {
