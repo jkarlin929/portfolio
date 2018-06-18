@@ -1,11 +1,12 @@
 body{
   font-family: 'Josefin Sans', sans-serif;
-  background: #696969; /*grey*/
+  background: #708090; /*grey*/
 }
 
 a{
   color: #faf2dc;
   text-shadow: 1px 0.5px black;
+  padding: 5px;
 }
 
 a:hover{
@@ -15,6 +16,7 @@ a:hover{
 
 p{
   font-size: 16px;
+  padding: 10px;
 }
 
 #photo{
@@ -22,9 +24,16 @@ p{
   height: 30%;
 }
 
+#about{
+  background-color: #D49A00; /*yellow-ish color*/
+  border-style: solid;
+  border-width: 3px;
+  padding: 15px;
+}
+
 #projectsTitle{
   font-family: 'Archivo Black', sans-serif;
-  background: #672D64; /*reddish color*/
+  background: #908070; /*brownish color*/
   font-size: 65px;
   border-style: solid;
   border-width: 3px;
@@ -32,58 +41,57 @@ p{
   color: #222222;
 }
 
-#about{
-  background: #D49A00; /*yellow-ish color*/
-  border-style: solid;
-  border-width: 3px;
-  padding: 15px;
-}
-
 .about{
+  background-color: #72808e;
   width: 100%;
   margin: 0px;
-  background: white;
   text-align: center;
 }
 
 .grid > div {
   background: #D49A00;
-  display: flex;
-  flex-direction: column;
-  justify-content: baseline;
   padding: 1em;
   border-style: solid;
   border-width: 3px;
 }
 
-/*.row{
+.projects {
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+  padding: 10px;
+}
+
+.citibike {
+  box-shadow: 20px;
+}
+
+.container{
+  display: flex;
+}
+
+.row{
   margin: 0 auto;
   width: 100%;
   overflow: hidden;
 }
-*/
-/*.codepen{
+
+.codepen{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 200%;
-}*/
-
-/*.background-image{
-  : 100%;
+  width: 100%;
 }
 
-.images{
-  margin: 20px;
-  padding: 10px;
+.well{
+  background-color: #708090;
 }
 
 .navLinks{
   color: #4e8064;
-}*/
+}
 
-/*.footer{
+.footer{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -95,14 +103,11 @@ p{
   padding: 15px;
 }
 
-.citibikeProject, .thankHeavenProject, .moonProject, .wordGame{
-  text-align: center;
-}
 
 .navbar-inverse{
   background-color: #262d2e;
   border-color: #413f74;
-}*/
+}
 
 @media only screen and (max-width: 500px) {
     body, .grid {
