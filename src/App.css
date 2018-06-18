@@ -1,15 +1,15 @@
 body{
   font-family: 'Josefin Sans', sans-serif;
-  background: #d0c7a2;
+  background: #696969; /*grey*/
 }
 
 a{
   color: #faf2dc;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 0.5px black;
 }
 
 a:hover{
-  color: #820707;
+  color: #820707;  /* change hover color to match */
   text-decoration: none;
 }
 
@@ -24,15 +24,16 @@ p{
 
 #projectsTitle{
   font-family: 'Archivo Black', sans-serif;
-  background: #99be8f;
-  font-size: 60px;
+  background: #672D64; /*reddish color*/
+  font-size: 65px;
   border-style: solid;
   border-width: 3px;
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px 2px #D49A00;
+  color: #222222;
 }
 
-#aboutMe{
-  background: #99be8f;
+#about{
+  background: #D49A00; /*yellow-ish color*/
   border-style: solid;
   border-width: 3px;
   padding: 15px;
@@ -41,43 +42,35 @@ p{
 .about{
   width: 100%;
   margin: 0px;
-  background: #d0c7a2;
+  background: white;
   text-align: center;
 }
 
-.grid{
-  display: grid;
-  grid-template-columns: 50% 50%;
-  background: #d0c7a2;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
-}
-
 .grid > div {
+  background: #D49A00;
   display: flex;
   flex-direction: column;
   justify-content: baseline;
-  background: #99be8f;
   padding: 1em;
   border-style: solid;
   border-width: 3px;
 }
 
-.row{
+/*.row{
   margin: 0 auto;
   width: 100%;
   overflow: hidden;
 }
-
-.codepen{
+*/
+/*.codepen{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 200%;
-}
+}*/
 
-.background-image{
+/*.background-image{
   : 100%;
 }
 
@@ -88,9 +81,9 @@ p{
 
 .navLinks{
   color: #4e8064;
-}
+}*/
 
-.footer{
+/*.footer{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -109,7 +102,7 @@ p{
 .navbar-inverse{
   background-color: #262d2e;
   border-color: #413f74;
-}
+}*/
 
 @media only screen and (max-width: 500px) {
     body, .grid {
