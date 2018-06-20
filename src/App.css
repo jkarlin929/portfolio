@@ -1,6 +1,15 @@
 body{
   font-family: 'Josefin Sans', sans-serif;
-  background: #708090; /*grey*/
+/*  background-image: linear-gradient(red, yellow, violet);
+  background-size: 100px;*/
+  background-image: url("http://res.cloudinary.com/jkarlin929/image/upload/v1529523500/forest-landscape-mountain-range-129105_rj6uny.jpg");
+  background-size: cover;
+  height: 25%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+
+
 }
 
 a{
@@ -25,15 +34,19 @@ h2{
 }
 
 #photo{
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
+  margin: auto;
+  border: 2px solid black;
+  opacity: 0.65;
 }
 
 #about{
   background-color: #D49A00; /*yellow-ish color*/
   border-style: solid;
   border-width: 3px;
-  padding: 15px;
+  padding: 25px;
+  margin: 100px 0px 200px 0px;
 }
 
 #projectsTitle{
@@ -44,10 +57,11 @@ h2{
   border-width: 3px;
   text-shadow: 2px 2px 2px #D49A00;
   color: #222222;
+  margin-bottom: 100px;
 }
 
 .about{
-  background-color: #72808e;
+  /*background-color: #72808e;*/
   width: 100%;
   margin: 0px;
   text-align: center;
@@ -86,6 +100,7 @@ h2{
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-top: 200px;
 }
 
 .well{
@@ -104,8 +119,9 @@ h2{
   color: #cd9b34;
   text-shadow: 1px 1px black;
   font-size: 16px;
-  margin-top: 15px;
+  margin-top: 200px;
   padding: 15px;
+
 }
 
 
@@ -113,6 +129,11 @@ h2{
   background-color: #262d2e;
   border-color: #413f74;
 }
+
+.well{
+  /*background-image: url("http://res.cloudinary.com/jkarlin929/image/upload/v1529525592/roots_csj15u.png");*/
+}
+
 
 @media only screen and (max-width: 500px) {
     body, .grid {

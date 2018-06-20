@@ -5,10 +5,7 @@ class Topnav extends Component {
   render() {
     return(
       <div className="topnav" id="topnav">
-        <Navbar inverse collapseOnSelect>
-          <Col xs={6} md={6}>
-            <Image id="photo" src="http://res.cloudinary.com/jkarlin929/image/upload/v1520994430/photoofme2_ysepvv.jpg" circle responsive />
-            </Col>
+        <Navbar fluid collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
             <a href="#topnav">Jason Karlin</a>
@@ -16,7 +13,7 @@ class Topnav extends Component {
           <Navbar.Toggle />
         </Navbar.Header>
   <Navbar.Collapse>
-      <Nav pullLeft>
+      <Nav pullRight>
           <NavItem eventKey={1} href="#about">
             About
           </NavItem>
