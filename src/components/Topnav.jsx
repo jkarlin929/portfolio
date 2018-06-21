@@ -8,7 +8,7 @@ class Topnav extends Component {
         <Navbar fluid collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#topnav">Jason Karlin</a>
+            A Collection by Jason Karlin
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

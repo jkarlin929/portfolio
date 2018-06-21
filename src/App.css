@@ -3,10 +3,17 @@ body{
 /*  background-image: linear-gradient(red, yellow, violet);
   background-size: 100px;*/
   background-image: url("http://res.cloudinary.com/jkarlin929/image/upload/v1529523500/forest-landscape-mountain-range-129105_rj6uny.jpg"), url("http://res.cloudinary.com/jkarlin929/image/upload/v1529525592/roots_csj15u.png");
-  background-repeat: repeat-x, repeat-y;
+  background-repeat: no-repeat, no-repeat;
   background-size: 120%, 115%;
   background-attachment: local;
   background-position: center top, center bottom;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  /*display: table;*/
 
 
 }
