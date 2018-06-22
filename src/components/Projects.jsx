@@ -5,7 +5,7 @@ class Projects extends Component {
   render() {
     return(
   <div className="grid">
-    <div className="projects">
+    <div className="projects" id="projects">
       <Grid>
         <Row>
           <Col xs={12}>
@@ -31,7 +31,6 @@ class Projects extends Component {
           <h2><i class="fas fa-user-astronaut"></i> Astronomer's Guide </h2>
             <a href="https://astronobject.herokuapp.com/"> <Image className="images" src="https://media.giphy.com/media/23cXQxgrvG4eNeuJZF/giphy.gif" thumbnail responsive /> </a>
             <p>An Express with Node and Javascript Astronomy Web App. </p>
-            <br />
             <a href="https://astronobject.herokuapp.com/"> | <i class="fas fa-external-link-alt"></i> Astronomer's Guide | </a>
             <a href="https://github.com/jkarlin929/moon_app">| <i class="fab fa-github"></i> Repository | </a>
             </Well>

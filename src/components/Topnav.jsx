@@ -17,9 +17,12 @@ class Topnav extends Component {
           <NavItem eventKey={1} href="#about">
             About
           </NavItem>
-          <NavItem eventKey={2} href="https://www.linkedin.com/in/jason-karlin/"> LinkedIn
+          <NavItem
+            eventKey={2} href="#projects"> Projects
           </NavItem>
-          <NavItem eventKey={3} href="#footer">
+          <NavItem eventKey={3} href="https://www.linkedin.com/in/jason-karlin/"> LinkedIn
+          </NavItem>
+          <NavItem eventKey={4} href="#footer">
           Contact
           </NavItem>
       </Nav>
