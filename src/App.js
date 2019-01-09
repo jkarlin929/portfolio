@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import About from './components/About';
 import Topnav from './components/Topnav';
@@ -14,7 +13,6 @@ class App extends Component {
         <About />
         <Projects />
         <Footer />
-
       </div>
     );
   }
