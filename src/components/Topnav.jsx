@@ -20,7 +20,7 @@ class Topnav extends Component {
           <NavItem
             eventKey={2} href="#projects"> Projects
           </NavItem>
-          <NavItem eventKey={3} href="https://www.linkedin.com/in/jason-karlin/"> LinkedIn
+          <NavItem eventKey={3} href="https://resume.creddle.io/resume/6edfwq1hu6u"> Résumé
           </NavItem>
           <NavItem eventKey={4} href="#footer">
           Contact
