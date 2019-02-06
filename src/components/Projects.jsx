@@ -48,8 +48,10 @@ class Projects extends Component {
           <Col xs={12} sm={6} md={6}>
           <Well bsSize="large">
           <h2>Grocery List</h2>
-            <a href=""><Image className="images" src="https://media.giphy.com/media/oX7sukXJrig21asjv4/giphy.gif" thumbnail responsive /> </a>
-
+            <a href="https://rocky-escarpment-47175.herokuapp.com/"><Image className="images" src="https://media.giphy.com/media/oX7sukXJrig21asjv4/giphy.gif" thumbnail responsive /> </a>
+            <p>CRUD app built using Ruby and Rails</p>
+            <a href="https://rocky-escarpment-47175.herokuapp.com/">| <i className="fas fa-shopping-cart"></i> Grocery List on GitHub | </a>
+            <a href="https://github.com/jkarlin929/grocery-list-rails-crud">| <i className="fab fa-github"></i> Repository | </a>
           </Well>
           </Col>
         </Row>
