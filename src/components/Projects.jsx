@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { Grid, Col, Row, Image, Well } from 'react-bootstrap';
+import { Grid, Col, Row, Image, Well, Jumbotron } from 'react-bootstrap';
 
 class Projects extends Component {
   render() {
     return(
   <div className="grid">
     <div className="projects" id="projects">
+    <Jumbotron id="projectsTitle">Projects</Jumbotron>
       <Grid>
         <Row>
           <Col xs={12}>
@@ -35,14 +36,21 @@ class Projects extends Component {
             <a href="https://github.com/jkarlin929/moon_app">| <i className="fab fa-github"></i> Repository | </a>
             </Well>
           </Col>
-          <Col xs={12}>
-          <Well bsSize="small">
+          <Col xs={12} sm={6} md={6}>
+          <Well bsSize="large">
           <h2>Word Guessing Game</h2>
             <a href="https://hellish-word-game.herokuapp.com/index.html"> <Image className="images" src="https://media.giphy.com/media/iB52Yt0VWdgDQ8FudX/giphy.gif" thumbnail responsive /> </a>
             <p>A word game built using HTML5, CSS and Javascript.</p>
             <a href="https://hellish-word-game.herokuapp.com/index.html">| <i className="fas fa-external-link-alt"></i> Word Game | </a>
             <a href="https://github.com/jkarlin929/word-game">| <i className="fab fa-github"></i> Repository | </a>
             </Well>
+          </Col>
+          <Col xs={12} sm={6} md={6}>
+          <Well bsSize="large">
+          <h2>Grocery List</h2>
+            <a href=""><Image className="images" src="https://media.giphy.com/media/oX7sukXJrig21asjv4/giphy.gif" thumbnail responsive /> </a>
+
+          </Well>
           </Col>
         </Row>
       </Grid>
