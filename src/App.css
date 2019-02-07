@@ -37,20 +37,12 @@ h2{
   padding: 7px;
 }
 
-#photo{
-  width: 20%;
-  height: 20%;
-  margin: auto;
-  border: 2px solid black;
-  opacity: 0.65;
-}
-
 #about{
   background-color: #f6f6f6 ; /*yellow-ish color*/
   border-style: solid;
   border-width: 3px;
   padding: 25px;
-  margin: 100px 0px 200px 0px;
+  margin: 8px 308px 550px 308px;
   color: #0a002b;
 }
 
@@ -68,7 +60,7 @@ h2{
 .about{
   /*background-color: #72808e;*/
   width: 100%;
-  margin: 0px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -111,7 +103,7 @@ h2{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #262d2e;
+  background-color: #0d2234;
   color: #cd9b34;
   text-shadow: 1px 1px black;
   font-size: 16px;
