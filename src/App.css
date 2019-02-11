@@ -38,7 +38,7 @@ h2{
 }
 
 #about{
-  background-color: #f6f6f6 ; /*yellow-ish color*/
+  /* background-color: #f6f6f6; */
   border-style: solid;
   border-width: 3px;
   padding: 25px;
@@ -55,6 +55,14 @@ h2{
   text-shadow: 2px 2px 2px #232736;
   color: #0a002b;
   margin-bottom: 100px;
+}
+
+#footer-contact{
+  color: #faf2dc;
+}
+
+#footer-contact:hover{
+  color: #b8170f;
 }
 
 .about{
@@ -104,7 +112,7 @@ h2{
   flex-direction: row;
   justify-content: space-around;
   background-color: #0d2234;
-  color: #cd9b34;
+  color: #faf2dc;
   text-shadow: 1px 1px black;
   font-size: 16px;
   margin-top: 400px;

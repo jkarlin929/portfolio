@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^3.7.0",
     "bootstrap": "^3.3.7",
     "react": "^16.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.11",

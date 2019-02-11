@@ -8,7 +8,9 @@ class Topnav extends Component {
         <Navbar fluid collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
+          <span className="animated pulse delay-2s">
             A Collection by Jason Karlin
+          </span>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -18,12 +20,14 @@ class Topnav extends Component {
             About
           </NavItem>
           <NavItem
-            eventKey={2} href="#projects"> Projects
+            eventKey={2} href="#projects">
+                Projects
           </NavItem>
-          <NavItem eventKey={3} href="https://resume.creddle.io/resume/6edfwq1hu6u"> Résumé
+          <NavItem eventKey={3} href="https://resume.creddle.io/resume/6edfwq1hu6u">
+            Résumé
           </NavItem>
           <NavItem eventKey={4} href="#footer">
-          Contact
+            Contact
           </NavItem>
       </Nav>
     </Navbar.Collapse>
