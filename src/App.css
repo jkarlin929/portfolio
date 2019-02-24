@@ -137,7 +137,7 @@ h2{
   border: 1px solid black;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
     body {
       background-size: cover;
       background-attachment: fixed;
@@ -148,7 +148,7 @@ h2{
     }
 
     .topnav {
-      width: 235%;
+      width: 238%;
     }
 
     #about {
@@ -161,7 +161,7 @@ h2{
     }
 
     .projects {
-      width: 235%;
+      width: 238%;
     }
 
     .footer {
