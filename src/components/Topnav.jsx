@@ -8,7 +8,7 @@ class Topnav extends Component {
         <Navbar fluid collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-          <span className="animated pulse delay-6s">
+          <span>
             A Collection by Jason Karlin
           </span>
           </Navbar.Brand>

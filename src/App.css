@@ -1,7 +1,7 @@
 body{
   font-family: 'Josefin Sans', sans-serif;
-/*  background-image: linear-gradient(red, yellow, violet);
-  background-size: 100px;*/
+ /* background-image: linear-gradient(red, yellow, violet);
+  background-size: 100px; */
   background-image: url("https://res.cloudinary.com/jkarlin929/image/upload/v1547004100/nyc-background_pmt58z.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,8 +11,6 @@ body{
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  min-height: 100%;
-  min-width: 100%;
 }
 
 a{
@@ -46,15 +44,17 @@ h2{
   color: #0a002b;
 }
 
-#projectsTitle{
-  font-family: 'Archivo Black', sans-serif;
+#projects-title{
+  font-family: 'Paytone One', sans-serif;
   background: #f6f6f6;
   font-size: 80px;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   text-shadow: 2px 2px 2px #232736;
   color: #0a002b;
-  margin-bottom: 100px;
+  margin: 0px 260px 100px 250px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #footer-contact{
@@ -138,10 +138,34 @@ h2{
 }
 
 @media only screen and (max-width: 500px) {
-    body, .grid, .well {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    body {
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    .grid>div {
+      margin-top: 388%;
+    }
+
+    .topnav {
+      width: 235%;
+    }
+
+    #about {
+      width: 100%;
+    }
+
+    #projects-title {
+      width: 60%;
+      margin: 0 auto 10%;
+    }
+
+    .projects {
+      width: 235%;
+    }
+
+    .footer {
+      width: 238%;
     }
 
     h2{

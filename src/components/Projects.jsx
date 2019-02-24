@@ -6,7 +6,7 @@ class Projects extends Component {
     return(
   <div className="grid">
     <div className="projects" id="projects">
-    <Jumbotron id="projectsTitle">Projects</Jumbotron>
+    <Jumbotron id="projects-title">Projects</Jumbotron>
       <Grid>
         <Row>
           <Col xs={12}>
@@ -53,7 +53,7 @@ class Projects extends Component {
           <h2>Grocery List</h2>
             <a href="https://rocky-escarpment-47175.herokuapp.com/"><Image className="images" src="https://media.giphy.com/media/oX7sukXJrig21asjv4/giphy.gif" thumbnail responsive /> </a>
             <p>CRUD app built using Ruby and Rails</p>
-            <a href="https://rocky-escarpment-47175.herokuapp.com/">| <i className="fas fa-shopping-cart"></i> Grocery List on GitHub | </a>
+            <a href="https://rocky-escarpment-47175.herokuapp.com/">| <i className="fas fa-shopping-cart"></i> Grocery List | </a>
             <a href="https://github.com/jkarlin929/grocery-list-rails-crud">| <i className="fab fa-github"></i> Repository | </a>
           </Well>
           </Col>
