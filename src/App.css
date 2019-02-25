@@ -1,4 +1,4 @@
-body{
+body {
   font-family: 'Josefin Sans', sans-serif;
  /* background-image: linear-gradient(red, yellow, violet);
   background-size: 100px; */
@@ -13,29 +13,29 @@ body{
   height: 100%;
 }
 
-a{
+a {
   color: #13334b;
   text-shadow: 1px 0.5px black;
   padding: 6px;
   font-size: 16px;
 }
 
-a:hover{
+a:hover {
   color: #b8170f;  /* change hover color to match */
   text-decoration: none;
 }
 
-p{
+p {
   font-size: 18px;
   padding: 16px;
 }
 
-h2{
+h2 {
   font-size: 40px;
   padding: 7px;
 }
 
-#about{
+#about {
   /* background-color: #f6f6f6; */
   border-style: solid;
   border-width: 3px;
@@ -44,7 +44,7 @@ h2{
   color: #0a002b;
 }
 
-#projects-title{
+#projects-title {
   font-family: 'Paytone One', sans-serif;
   background: #f6f6f6;
   font-size: 80px;
@@ -57,15 +57,15 @@ h2{
   padding-right: 40px;
 }
 
-#footer-contact{
+#footer-contact {
   color: #faf2dc;
 }
 
-#footer-contact:hover{
+#footer-contact:hover {
   color: #b8170f;
 }
 
-.about{
+.about {
   /*background-color: #72808e;*/
   width: 100%;
   margin: 0 auto;
@@ -89,25 +89,25 @@ h2{
   box-shadow: 20px;
 }
 
-.container{
+.container {
   display: flex;
 }
 
-.row{
+.row {
   margin: 0 auto;
   width: 100%;
   overflow: hidden;
 }
 
-.well{
+.well {
   background-color: #f6f6f6;
 }
 
-.navLinks{
+.navLinks {
   color: #4e8064;
 }
 
-.footer{
+.footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -119,22 +119,35 @@ h2{
   padding: 15px;
 }
 
-.navbar{
+.navbar {
   background-color: #062336;
   border: 1px solid #262d2f;
 }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
+ul {
+  text-align: center;
+}
+
+.span-item {
+  padding: 0.5px;
+  margin-top: 13px;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a, span[role=button] {
   color: #faf2dc;
 }
 
-.navbar-default:hover .navbar-brand:hover, .navbar-default:hover .navbar-nav>li>a:hover{
+.navbar-default:hover .navbar-brand:hover, .navbar-default:hover .navbar-nav>li>a:hover, span[role=button] {
   color: #b8170f;
 }
 
-.well{
+.well {
   background-color: #f6f6f6;
   border: 1px solid black;
+}
+
+.nav-item {
+  color: #faf2dc;
 }
 
 @media only screen and (max-width: 768px) {

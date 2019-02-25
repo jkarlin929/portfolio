@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 
 class Topnav extends Component {
   render() {
@@ -16,18 +18,17 @@ class Topnav extends Component {
         </Navbar.Header>
   <Navbar.Collapse>
       <Nav pullRight>
-          <NavItem eventKey={1} href="#about">
-            About
+          <NavItem componentClass='span' className='span-item' eventKey={1}>
+            <AnchorLink className='nav-item' href="#about">About</AnchorLink>
           </NavItem>
-          <NavItem
-            eventKey={2} href="#projects">
-                Projects
+          <NavItem componentClass='span' className='span-item' eventKey={2} href="#projects-title">
+            <AnchorLink offset='30' className='nav-item' href="#projects-title">Projects</AnchorLink>
           </NavItem>
           <NavItem eventKey={3} href="https://resume.creddle.io/resume/6edfwq1hu6u">
             Résumé
           </NavItem>
-          <NavItem eventKey={4} href="#footer">
-            Contact
+          <NavItem componentClass='span' className='span-item' eventKey={4} href="#footer">
+            <AnchorLink className='nav-item' href="#footer">Contact</AnchorLink>
           </NavItem>
       </Nav>
     </Navbar.Collapse>
