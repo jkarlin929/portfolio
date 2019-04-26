@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import Projects from './components/Projects';
 import Topnav from './components/Topnav';
 
-
 class App extends Component {
   render() {
     return (
