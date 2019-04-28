@@ -1,16 +1,25 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Topnav = () => (
-  <div>
-  <span>
-    A Collection by Jason Karlin
+<div className="nav-header">
+  <span className="nav-name">
+  Jason Karlin
   </span>
-  <AnchorLink className='nav-item' href="#about">About</AnchorLink>
-  <AnchorLink offset='30' className='nav-item' href="#projects-title">Projects</AnchorLink>
-    Résumé
-  <AnchorLink className='nav-item' href="#footer">Contact</AnchorLink>
-  </div>
+    <nav className="nav">
+      <span className="nav-item">
+        About
+      </span>
+      <span className="nav-item">
+        Projects
+      </span>
+      <span className="nav-item">
+        Résumé
+      </span>
+      <span className="nav-item">
+        Contact
+      </span>
+    </nav>
+</div>
 )
 
 export default Topnav;
