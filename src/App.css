@@ -22,6 +22,7 @@ body {
 }
 
 .nav-name {
+  width: 50%;
   font-size: 1.4rem;
   font-weight: 200;
   letter-spacing: 0.1rem;
@@ -30,14 +31,15 @@ body {
   padding: 0rem 0.5rem;
 }
 
-.nav {
+.nav, .nav-item {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  width: 100%;
 }
 
 .nav-item {
-  font-weight: 400;
+  justify-content: space-around;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
   font-size: 1.08rem;
   padding: 0rem 0.5rem;
 }

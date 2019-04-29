@@ -13,9 +13,6 @@ const Topnav = () => (
         Projects
       </span>
       <span className="nav-item">
-        Résumé
-      </span>
-      <span className="nav-item">
         Contact
       </span>
     </nav>
