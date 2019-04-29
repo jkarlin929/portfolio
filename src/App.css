@@ -45,9 +45,13 @@ body {
 }
 
 .about {
-  background: red;
+  background: url(./assets/black-sand.jpg);
+  background-size: cover;
   top: 5.4rem;
-  padding: 3rem;
-  margin: 8rem 5rem;
+  padding: 19.2rem;
   position: relative;
+}
+
+.about-desc {
+  background: white;
 }

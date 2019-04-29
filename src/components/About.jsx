@@ -2,7 +2,8 @@ import React from 'react';
 
 const About = () => (
   <div className="about">
-    <p> Full Stack Web Developer </p>
+    <img src="./assets/black-sand.jpg" alt=""/>
+    <p className="about-desc"> Full Stack Web Developer </p>
   </div>
 )
 
