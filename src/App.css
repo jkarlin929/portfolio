@@ -61,17 +61,17 @@ body {
   color: snow;
   letter-spacing: 4px;
   text-transform: uppercase;
-  overflow: hidden;
-  background: linear-gradient(80deg, #000, #fff, #000);
-  background-repeat: no-repeat;
-  background-size: 80%;
-  animation: animate 5s linear infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 250, 250, 0);
 }
 
 .about-desc:hover {
-  -webkit-text-fill-color: rgba(255, 250, 250, 1)
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 250, 250, 0);
+  cursor: pointer;
 }
 
 @keyframes animate {
