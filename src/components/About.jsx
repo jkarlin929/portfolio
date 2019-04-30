@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const About = () => (
+const About = () => {
+  return (
   <div className="about">
-    <p className="about-desc"> Full Stack Web Developer </p>
+    <p className="about-desc"> Full stack web developer </p>
   </div>
-)
+  )
+}
 
 export default About;
