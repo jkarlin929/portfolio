@@ -13,6 +13,7 @@ body {
 .nav-header {
   background: #313034;
   padding: 2rem 0;
+  min-width: 100vw;
   display: flex;
   font-size: 1.2rem;
   color: snow;
@@ -46,14 +47,18 @@ body {
 }
 
 .about {
-  background: url(./assets/black-sand.jpg);
-  background-size: cover;
+  background: center / cover no-repeat url(./assets/black-sand.jpg);
   top: 5.4rem;
-  padding: 19.9rem;
+  min-height: 100vh;
   position: relative;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.45);
 }
 
 .about-desc {
-  background: green;
+  display: inline;
+  text-align: center;
+  font-size: 4rem;
+  padding: 0rem 4rem;
+  color: snow;
+  letter-spacing: 1px;
 }
