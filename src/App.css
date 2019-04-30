@@ -13,7 +13,6 @@ body {
 .nav-header {
   background: #313034;
   padding: 2rem 0;
-  min-width: 100vw;
   display: flex;
   font-size: 1.2rem;
   color: snow;
@@ -56,9 +55,15 @@ body {
 }
 
 .about-desc {
-  display: inline;
+  /* display: inline; */
   font-size: 4rem;
   padding: 0rem 4rem;
   color: snow;
   letter-spacing: 1px;
+}
+
+@media all and (max-width: 1000px) {
+  .about {
+    width: 150%;
+  }
 }
