@@ -61,9 +61,6 @@ body {
   color: snow;
   letter-spacing: 4px;
   text-transform: uppercase;
-}
-
-.about-desc:hover {
   overflow: hidden;
   background: linear-gradient(90deg, #000, #fff, #000);
   background-repeat: no-repeat;
@@ -74,11 +71,26 @@ body {
   cursor: pointer;
 }
 
+/* .about-desc:hover {
+
+} */
+
 @keyframes animate {
   0% {
+    letter-spacing: 8px;
     background-position: -500%;
   }
+  25% {
+    letter-spacing: 7px;
+  }
+  50% {
+    letter-spacing: 6px;
+  }
+  75% {
+    letter-spacing: 5px;
+  }
   100% {
+    letter-spacing: 4px;
     background-position: 500%;
   }
 }
