@@ -72,7 +72,7 @@ body {
   cursor: pointer;
 }
 
-@keyframes animate {
+@keyframes animate { 
   0% {
     letter-spacing: 8px;
     background-position: -500%;
