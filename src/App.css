@@ -72,7 +72,24 @@ body {
   cursor: pointer;
 }
 
-@keyframes animate { 
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: linear-gradient(360deg, rgba(11,13,16), rgba(237,238,237), rgba(238, 239, 238));
+}
+
+.content-div {
+  color: yellow;
+  width: auto;
+}
+
+p.content-div-desc {
+  width: 75%;
+}
+
+@keyframes animate {
   0% {
     letter-spacing: 8px;
     background-position: -500%;
