@@ -75,14 +75,21 @@ body {
 .container {
   width: 100%;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  justify-content: center;
   background: linear-gradient(360deg, rgba(11,13,16), rgba(237,238,237), rgba(238, 239, 238));
 }
 
 .content-div {
-  color: yellow;
   width: auto;
+}
+
+.project-title {
+  color: red;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 40px;
 }
 
 p.content-div-desc {

@@ -4,7 +4,7 @@ import React from 'react';
 
 const About = () => (
   <div className="about">
-    <p className="about-desc"> Full stack web developer </p>
+    <p className="about-desc">Full Stack Web Developer</p>
   </div>
 )
 
